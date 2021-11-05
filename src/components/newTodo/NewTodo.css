@@ -1,0 +1,47 @@
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input_todo {
+    margin-bottom: 5px;
+    display: block;
+    width: 50vw;
+    height: 30px;
+    padding: 5px;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #000;
+    background-color: #fff;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 5px;
+    overflow-wrap: break-word;
+}
+.input_todo:hover {
+    border: 2px solid #000;
+}
+.add_btn {
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    width: 10vw;
+    height: 40px;
+    padding: 5px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    border: 2px solid #000;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+.add_btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+.errorMsg {
+    color: #c30000;
+}

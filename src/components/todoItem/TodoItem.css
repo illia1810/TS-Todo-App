@@ -1,0 +1,141 @@
+.listItem__wrapper {
+  width: 70vw;
+  padding-left: 15vw;
+  position: relative;
+  word-break: break-word;
+}
+.listItem {
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+.listItem:hover {
+  box-shadow: 10px 5px 5px #fff;
+}
+.listItem__title {
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: #000;
+  font-weight: 500;
+}
+.listItem__wrapper__title {
+  position: relative;
+}
+.listItem__button--favorite {
+  color: black;
+  cursor: pointer;
+}
+.listItem__button--notFavorite {
+  color: #f50;
+  cursor: pointer;
+}
+.todo_item_btns {
+  cursor: pointer;
+}
+.todo_item_btns--title {
+  font-family: inherit;
+  font-size: 30px;
+  position: absolute;
+  top: 5px;
+  left: 30px;
+  padding-left: 80vw;
+  cursor: pointer;
+}
+.todo_item_btns--title:hover {
+  color: greenyellow;
+}
+.todo_item_btns--button {
+  margin-top: 10px;
+  cursor: pointer;
+  vertical-align: top;
+  padding: 7px 20px;
+  font-family: inherit;
+  font-size: 12px;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.listItemdone {
+  background-color: #fff;
+  border: 2px solid #f00;
+  margin-bottom: 10px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  text-decoration: line-through;
+}
+.listItemdone:hover {
+  box-shadow: 10px 5px 5px gray;
+}
+.deleteMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+}
+.deleteMenu__title {
+  font-family: inherit;
+  font-size: 25px;
+  font-weight: 400;
+  color: #000;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.deleteMenu__title--todo {
+  font-family: inherit;
+  font-size: 30px;
+  font-weight: 500;
+  color: #f00;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.deleteMenu_btns {
+  display: flex;
+  justify-content: space-between;
+}
+.deleteMenu__button {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 5px 20px;
+  text-align: center;
+  font-size: 16px;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+.close_img {
+  width: 30px;
+  height: 30px;
+  margin: 5px 5px;
+}
+.deleteMenu__button--cancel {
+  color: #f00;
+  border: 2px solid #f00;
+}
+.deleteMenu__button--cancel:hover {
+  background-color: #f00;
+  color: #fff;
+}
+.deleteMenu__button--ok {
+  color: #0f0;
+  border: 2px solid #0f0;
+}
+.deleteMenu__button--ok:hover {
+  background-color: #0f0;
+  color: #fff;
+}
+.deleteMenu__button--close {
+  width: 30px;
+  color: red;
+  border: none;
+  align-self: flex-end;
+}
